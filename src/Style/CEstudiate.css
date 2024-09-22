@@ -1,0 +1,68 @@
+.form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em; /* Cambiado a em para mejor adaptabilidad */
+  margin-bottom: 20px; /* Aumentado para mejorar el espaciado */
+  color: #333; /* Color de texto más oscuro para mejor legibilidad */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Aumentado para más separación entre campos */
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Color más suave para el texto de las etiquetas */
+}
+
+.form-group input {
+  width: 100%; /* Simplificado para mejor responsividad */
+  padding: 10px; /* Aumentado para mejorar la usabilidad */
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  transition: border-color 0.3s; /* Añadido efecto de transición */
+}
+
+.form-group input:focus {
+  border-color: #2aa8da; /* Cambia el color del borde al enfocar */
+  outline: none; /* Quita el contorno predeterminado */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Añadido margen superior para separación */
+}
+
+.button-group button {
+  background-color: #2aa8da;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s; /* Añadido efecto de transición */
+}
+
+.button-group button:hover {
+  background-color: #1e8bb8; /* Color más oscuro al pasar el ratón */
+  transform: translateY(-2px); /* Efecto de elevación al pasar el ratón */
+}
+
+.button-group button:active {
+  background-color: #1a7a9c; /* Color al hacer clic */
+  transform: translateY(0); /* Restaura posición al hacer clic */
+}

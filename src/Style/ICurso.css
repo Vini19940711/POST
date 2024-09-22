@@ -1,0 +1,65 @@
+/* Estilos globales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+  box-sizing: border-box;
+}
+
+/* Estilo del contenedor del formulario */
+.form-container {
+  background-color: rgba(101, 100, 100, 0.3); /* Fondo blanco del formulario */
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px; /* Limitar el ancho máximo */
+  box-sizing: border-box;
+  margin: 0 50px; /* Asegurar que no se salga del margen en pantallas pequeñas */
+}
+
+/* Centrar título */
+h1 {
+  text-align: center;
+  color: #333; /* Texto negro */
+}
+
+/* Estilo para etiquetas y campos de entrada */
+label {
+  color: #333;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Estilo del botón */
+button {
+  width: 100%;
+  padding: 10px;
+  color: rgb(11, 11, 11) !important; /* Texto Negro */
+  border: 1px solid transparent;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #5fa2e5 !important;
+}
+
+p {
+  text-align: center;
+  color: rgb(78, 136, 187);
+  font-size: 12px;
+}
